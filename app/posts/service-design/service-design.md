@@ -1,0 +1,17 @@
+---
+layout: collection
+title: Service design
+description: Design decisions on service design
+pagination:
+  data: collections.service-design
+  reverse: true
+  size: 50
+permalink: "service-design/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+override:tags:
+  - post
+eleventyComputed:
+  eleventyNavigation:
+    key: "{{ title }}"
+    excerpt: "{{ description }}"
+    parent: home
+---
