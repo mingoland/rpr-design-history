@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: Service design
-description: Design decisions on service design
+description: Service design decisions on BEIS RPR
 pagination:
   data: collections.service-design
   reverse: true
@@ -14,4 +14,5 @@ eleventyComputed:
     key: "{{ title }}"
     excerpt: "{{ description }}"
     parent: home
+    order: 3
 ---

@@ -1,6 +1,6 @@
-# Design history for GOV.UK services
+# Design history for BEIS Regulated Professions Register (RPR)
 
-A place for you to document your GOV.UK service designs.
+A place for you to document your BEIS RPR designs.
 
 <https://design-history.herokuapp.com>
 
@@ -14,21 +14,26 @@ This repository makes it easy to:
 * print pages of designs
 * make designs shareable and linkable
 
-## Installation and getting started
+## Installation
 
-Read our guide on how to [set up a design history](https://design-history.herokuapp.com/set-up-a-design-history/).
+* Clone this repository to a folder on your computer
+* Open Terminal
+* In Terminal, change the path to the repository
+* Type `npm install` to install the dependencies
 
-## Example design histories
+## Working locally
 
-* [Becoming a teacher](https://bat-design-history.netlify.app)
-* [Early years foundation stage framework](https://eyfs-design-history.netlify.app)
-* [Get help with remote education](https://remote-education-design-history.netlify.app)
-* [Get help with technology](https://ghwt-design-history.herokuapp.com)
-* [Get Into Teaching](https://get-into-teaching-design-history.netlify.app)
-* [Teacher CPD](https://teacher-cpd-design-history.herokuapp.com)
-* [Submit data on social housing sales and lettings (aka CORE)](https://core-design-history.netlify.app)
-* [Manage supervisions](https://ms-design-history.herokuapp.com)
+Most of the time you'll be adding new posts. If you're just doing this then:
+
+* Open Terminal
+* Type `npm start`
+
+This will automatically restart the application with any changes to your posts an any images applied.
+
+If you want to make changes to CSS and JavaScript, and watch for those changes, run `npm run dev`.
 
 ## Technical notes
+
+Uses the [Design History](https://design-history.herokuapp.com/) as a template ([Github](https://github.com/dfe-digital/govuk-design-history))
 
 The design history uses the [GOV.UK Design System](https://design-system.service.gov.uk) and the [Eleventy](https://www.11ty.dev) static site generator.

@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: Interaction and visual design
-description: Design decisions on interaction and visual design
+description: Interaction and visual design decisions on BEIS RPR
 pagination:
   data: collections.interaction-design
   reverse: true
@@ -14,4 +14,9 @@ eleventyComputed:
     key: "{{ title }}"
     excerpt: "{{ description }}"
     parent: home
+    order: 1
+related:
+  items:
+  - text: RPR beta prototype
+    href: https://rpr-prototype.herokuapp.com/
 ---
