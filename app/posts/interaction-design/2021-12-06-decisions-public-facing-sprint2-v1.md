@@ -1,5 +1,5 @@
 ---
-  title: Public facing search decisions (sprint 2 - version 1)
+  title: Public facing search design decisions (sprint 2 - version 1)
   date: 2021-12-06
   related:
     items:
